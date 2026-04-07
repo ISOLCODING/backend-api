@@ -97,6 +97,9 @@ return [
             'prefix_indexes' => true,
             'search_path' => env('DB_SEARCH_PATH', 'public'),
             'sslmode' => env('DB_SSLMODE', 'require'),
+            'options' => [
+                '--endpoint=ep-purple-meadow-a1eeq78x',
+            ],
         ],
 
         'sqlsrv' => [
